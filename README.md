@@ -6,6 +6,7 @@ This is a personal project I built to demonstrate my ability to architect and de
 Instead of just putting basic screens together, I designed this project to work like a real-world industrial system. It simulates a pharmaceutical solvent preparation process, complete with SQL database integration, dynamic reporting, and secure operator controls.
 
 [Overview_Screen_Desktop](https://github.com/ali12danish/Ignition_Project/blob/main/Media/Main_Overview%20(Desktop%20view).png)
+![Overview_Screen_Desktop](main/Media/Main_Overview%20(Desktop%20view).png)
 
 ## Key Features & Architecture
 
