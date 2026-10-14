@@ -39,6 +39,6 @@ I focused on building a backend that is efficient, secure, and easy to maintain:
 Here is a short demonstration showing the responsive screen layout, the secure E-Signature popups blocking unauthorized access, and the automated reporting engine.
 
 
-https://github.com/user-attachments/assets/fafa3a0e-fa60-46f9-9a40-af4ac73f44c5
+[🎥 Click here to open the Project Demo Video](Project_Demo/DEMO.md)
 
 
