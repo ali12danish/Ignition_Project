@@ -5,7 +5,8 @@ This is a personal project I built to demonstrate my ability to architect and de
 
 Instead of just putting basic screens together, I designed this project to work like a real-world industrial system. It simulates a pharmaceutical solvent preparation process, complete with SQL database integration, dynamic reporting, and secure operator controls.
 
-<img width="800" height="430" alt="Ignition_Perspective_SCADA_Overview" src="https://github.com/user-attachments/assets/851fe5ad-9af5-4982-8633-402d272e6ff6" />
+<img width="800" height="430" alt="Ignition_Perspective_overview_gif" src="https://github.com/user-attachments/assets/ac05e099-ef77-4a4e-8547-ace3e0f8d3fa" />
+
 
 
 
