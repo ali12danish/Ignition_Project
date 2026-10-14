@@ -17,11 +17,13 @@ I focused on building a backend that is efficient, secure, and easy to maintain:
 * **Database-Driven Tags (SQL Server):** To make the system easy to update, I avoided hardcoding limits into the screens. Instead, the application automatically pulls process limits, engineering units, and statuses directly from a centralized SQL Server database.
 * **Secure Operator Controls (E-Signatures):** Because this simulates a highly regulated pharmaceutical process, I built a custom E-Signature module. Critical actions—like starting a batch or overriding a valve—require the operator to authenticate with a password and leave a comment, fulfilling standard FDA compliance requirements.
 
-   ![E-signature](Media/E-Signature.png)
+<img width="800" height="440" alt="E-Signature GIF" src="https://github.com/user-attachments/assets/3364ece2-b89f-4c04-909e-23bc7e28435b" />
+
    
 * **Automated Audit Logging:** All E-Signature events, state changes and user login or logout are intercepted by a global Python script and logged to a custom SQL table. This creates a reliable, permanent history of who took what action and when.
   
-  ![Audit_Trail](Media/Reports.png)
+<img width="800" height="450" alt="Audit Logging GIF" src="https://github.com/user-attachments/assets/b910f8c2-e541-4a83-b91a-1eaab7c5097e" />
+
   
 * **Reusable, Scalable Design:** I used User-Defined Types (UDTs) and templates so the project is easy to expand. For example, there is only one master "Valve Popup" design in the entire project. It dynamically updates its data based on exactly which valve the operator clicks, saving massive amounts of development time.
 
